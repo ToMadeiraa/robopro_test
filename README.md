@@ -23,6 +23,4 @@ cmake --build build -j"$(nproc)"
 ./build/robot_tcp
 ```
 
-Пример работы:
-
-![Демонстрация работы](example.mp4)
+### Пример работы в example.mp4
