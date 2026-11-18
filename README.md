@@ -23,10 +23,6 @@ cmake --build build -j"$(nproc)"
 ./build/robot_tcp
 ```
 
-
 Пример работы:
 
-<video width="640" height="360" controls>
-  <source src="путь_к_видео.mp4" type="video/mp4">
-  Ваш браузер не поддерживает тег video.
-</video>
+![Демонстрация работы](example.mp4)
