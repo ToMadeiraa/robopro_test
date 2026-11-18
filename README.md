@@ -1,7 +1,5 @@
-Стек: **C++17, Qt 6 (Quick/QML, Quick 3D), CMake**
-
-Проверялось на **Windows** и **VM Linux Ubuntu 22.04**
-
+Стек: **C++17, Qt 6 (Quick/QML, Quick 3D), CMake**\
+Проверялось на **Windows** и **VM Linux Ubuntu 22.04**\
 На **Windows** работает из QtCreator (Qt 6.11, MinGW), либо:
 
 ```powershell
@@ -13,38 +11,34 @@ cmake -S . -B build -G Ninja `
 cmake --build build
 ```
 
-На **Linux** специальный скрипт для подтягивания зависимостей в scripts/install_dependencies_ubuntu.sh
-
-Или вручную:
-
-Основные пакеты:
-    build-essential
-    cmake
-    ninja-build
-    pkg-config
-    qt6-base-dev
-    qt6-declarative-dev
-    qt6-quick3d-dev
-    qt6-quick3d-dev-tools
-    qml6-module-qtquick
-    qml6-module-qtquick-controls
-    qml6-module-qtquick-templates
-    qml6-module-qtquick-layouts
-    qml6-module-qtquick-window
-    qml6-module-qtqml-workerscript
-    qml6-module-quick3d
-    libgl1-mesa-dev
+На **Linux** специальный скрипт для подтягивания зависимостей в scripts/install_dependencies_ubuntu.sh\
+Или вручную:\
+Основные пакеты:\
+    build-essential\
+    cmake\
+    ninja-build\
+    pkg-config\
+    qt6-base-dev\
+    qt6-declarative-dev\
+    qt6-quick3d-dev\
+    qt6-quick3d-dev-tools\
+    qml6-module-qtquick\
+    qml6-module-qtquick-controls\
+    qml6-module-qtquick-templates\
+    qml6-module-qtquick-layouts\
+    qml6-module-qtquick-window\
+    qml6-module-qtqml-workerscript\
+    qml6-module-quick3d\
+    libgl1-mesa-dev\
 	
-Доп. пакеты для запуска на ВМ:
-	libxkbcommon-dev
-    libxkbcommon-x11-dev
-	qt6-shadertools-dev или libqt6shadertools6-dev
-	vulkan-sdk
-	libvulkan-dev
-	vulkan-tools
+Доп. пакеты для запуска на ВМ:\
+	libxkbcommon-dev\
+    libxkbcommon-x11-dev\
+	qt6-shadertools-dev или libqt6shadertools6-dev\
+	vulkan-sdk\
+	libvulkan-dev\
+	vulkan-tools\
 	
-	
-
 
 Компиляция и запуск:
 ```bash
