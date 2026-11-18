@@ -1,5 +1,5 @@
-Стек: **C++17, Qt 6 (Quick/QML, Quick 3D), CMake**\
-Проверялось на **Windows** и **VM Linux Ubuntu 22.04**\
+Стек: **C++17, Qt 6 (Quick/QML, Quick 3D), CMake.**\
+Проверялось на **Windows** и **VM Linux Ubuntu 22.04.**\
 На **Windows** работает из QtCreator (Qt 6.11, MinGW), либо:
 
 ```powershell
@@ -52,3 +52,5 @@ cmake --build build -j"$(nproc)"
 ```
 
 ### Пример работы в example.mp4
+
+![GUI](example.png)
